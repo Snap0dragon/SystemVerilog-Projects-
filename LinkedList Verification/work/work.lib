@@ -1,0 +1,172 @@
+timestamp=1737348708742
+
+[~A]
+CUSP_Counter=1
+LastVerilogToplevel=tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*13292*16491
+
+[~MFT]
+0=27|0work.mgf|16491|0
+1=16|1work.mgf|127245|0
+3=32|3work.mgf|141681|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c9216ad0465d5c9da8c6240584b28c6e1baba
+
+[DUT]
+A/DUT=22|../design.sv|136|1*30372
+AICT=444761269350656
+BinL64/DUT=3*32968
+CLI=0*4147
+CUSP=UnitScopePackage_1
+R=../design.sv|136
+SLP=3*38590
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|db5272b61929768e4751426001023d29a25c37fa0cc308d4751fb885d60f0b11
+
+[Node]
+A/Node=22|../design.sv|3|1*374
+AICT=444761269348096
+BinL64/Node=3*174
+CLI=0*1070
+R=../design.sv|3
+SLP=3*3611
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|aed5333a8a95d84a34f87afe57661839d9239453133461561f302e59ba3818ad
+
+[Stimulus]
+A/Stimulus=22|../stimulus.svh|30|1*107222
+AICT=444761269354496
+BinL64/Stimulus=3*121207
+CLI=0*12230
+CUSP=UnitScopePackage_1
+R=../stimulus.svh|30
+SLP=3*128572
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|ff1b1c578cab898e414e678922b0047c44262b98d1ce650fcb326b0e6e607b7386e27167e778f8608dcf21b76e010d1b
+
+[UnitScopePackage_1]
+A/UnitScopePackage_1=22|../design.sv|0|1*127245
+BinL64/UnitScopePackage_1=3*141562
+CUSP=7
+R=../design.sv|0
+SLP=3*141681
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|fab98aed36991913255ea6c02c9bb53e4dc7b1d77717ad53c996fab9a47702eb1613a8fb771683800c3b65c855412427
+
+[\*queue#(Node) \]
+A/\*queue#(Node) \=22|||1*25564
+AICT=444761269350144
+BinL64/\*queue#(Node) \=3*29528
+CLI=0*3045
+SLP=3*31385
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|41c0abc0e0ca0433873ba8c8b7b453b6c3f3d99e92098aeeabb275748e6d23800337bb7cb3ac4e3adb355381af6a7ca2
+
+[\*queue#(UnitScopePackage_1::opcode_u) \]
+A/\*queue#(UnitScopePackage_1::opcode_u) \=22|||1*101856
+AICT=444761269354752
+BinL64/\*queue#(UnitScopePackage_1::opcode_u) \=3*117668
+CLI=0*10847
+SLP=3*119568
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|656c7fed3134c7785d98f39a2ce4f47265874ebc2d97addc14e5fe211d3420d86b7d589dde43db4e999c9a01ea18f6be7f4cee0fde8a5d9850c97b661401bf34da87cd28cce6c5e754a7163036ccdcc2
+
+[\*queue#([]bit) \]
+A/\*queue#([]bit) \=22|||1*6564
+AICT=444761269348864
+BinL64/\*queue#([]bit) \=3*7376
+CLI=0*1447
+SLP=3*9571
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|ac315f1ee53bd5e82d18c46d474b59c486ecc9714881a909134cfbf0b9847b33c71f61d7644dd5c7db06f1d0955febd7
+
+[\*queue#([]bitS) \]
+A/\*queue#([]bitS) \=22|||1*39319
+AICT=444761269351168
+BinL64/\*queue#([]bitS) \=3*44174
+CLI=0*4533
+SLP=3*46372
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|ac315f1ee53bd5e82d18c46d474b59c4220d91537624afd915116161cb7b9d3120c08cd1e19302c46e50d98d9b9c91fc
+
+[linked_list]
+A/linked_list=22|../design.sv|15|1*11749
+AICT=444761269349120
+BinL64/linked_list=3*11153
+CLI=0*2598
+CUSP=UnitScopePackage_1
+R=../design.sv|15
+SLP=3*20018
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3079a68026483d67dd78404a4c01500a224f346ea26fe4891027442c98c6156e22d9fe83318468801887b8c534adeaed
+
+[monitor]
+A/monitor=22|../monitor.svh|80|1*60505
+AICT=444761269353216
+BinL64/monitor=3*69147
+CLI=0*7005
+CUSP=UnitScopePackage_1
+R=../monitor.svh|80
+SLP=3*74280
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|95ff40020058ee65c420aa5e779914f826527262ddaa47cb266f3a3c4d9b973a2ad153195e9353bb5bb7ed1995ce9144
+
+[psudo_dut]
+A/psudo_dut=22|../monitor.svh|2|1*44543
+AICT=444761269351680
+BinL64/psudo_dut=3*47955
+CLI=0*5873
+CUSP=UnitScopePackage_1
+R=../monitor.svh|2
+SLP=3*59061
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3dde534524aa6dd0fb3981ba49432cea39f08beca6824c6950d73c955418dcb77b87496265747f72cde4b7fffd3dec17
+
+[rand_op]
+A/rand_op=22|../stimulus.svh|20|1*89340
+AICT=444761269354240
+BinL64/rand_op=3*102814
+CLI=0*10362
+CUSP=UnitScopePackage_1
+R=../stimulus.svh|20
+SLP=3*110316
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|92a2a9763055f2db240441cf69d32a1426527262ddaa47cb266f3a3c4d9b973a419c21629156d253c948c2d43321c341
+
+[rand_size]
+A/rand_size=22|../stimulus.svh|9|1*76824
+AICT=444761269353984
+BinL64/rand_size=3*88795
+CLI=0*9105
+R=../stimulus.svh|9
+SLP=3*95669
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|e93f6db2c5fcdd615e6840b3695e8b2118796be1c5367029fe50f9a304d13866e1b6a8ffad6da8c0f66c34eddbfa5a49
+
+[rand_val]
+A/rand_val=22|../stimulus.svh|1|1*69251
+AICT=444761269353728
+BinL64/rand_val=3*79615
+CLI=0*7971
+R=../stimulus.svh|1
+SLP=3*83946
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|68a206d80771483fc79dbe8aaca9e2a53535cc8d9627fb93a836e16c28de745566cf54373c3247d4551965896ceac6ca
+
+[tb]
+A/tb=22|../testbench.sv|8|1*123473
+BinL64/tb=3*136611
+CUSP=UnitScopePackage_1
+R=../testbench.sv|8
+SLP=3*139221
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|8db8692708dc0985d408d2497dbc95fa599826016ad1f8f19127e440ddc520f8
+
+[~U]
+$root=12|0*0|
+DUT=12|0*3500||0x30000
+Node=12|0*502||0x30000
+Stimulus=12|0*11348||0x30000
+UnitScopePackage_1=12|0*12965||0x40200000
+\*queue#(Node) \=12|||0x10030000
+\*queue#(UnitScopePackage_1::opcode_u) \=12|||0x10030000
+\*queue#([]bit) \=12|||0x10030000
+\*queue#([]bitS) \=12|||0x10030000
+linked_list=12|0*1930||0x30000
+monitor=12|0*6384||0x30000
+psudo_dut=12|0*5013||0x1030000
+rand_op=12|0*9597||0x30000
+rand_size=12|0*8358||0x30000
+rand_val=12|0*7404||0x30000
+tb=12|0*12795||0x10
