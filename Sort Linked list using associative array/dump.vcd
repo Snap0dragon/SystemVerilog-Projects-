@@ -1,0 +1,22 @@
+$date
+Sun Jan 19 23:42:59 2025
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module tb $end
+$var reg 3 ! oop $end
+$var integer 32 " c $end
+$var integer 32 # d $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+b0 "
+b0 #
+$end

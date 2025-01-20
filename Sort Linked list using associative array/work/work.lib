@@ -1,0 +1,181 @@
+timestamp=1737348178959
+
+[~A]
+CUSP_Counter=1
+LastVerilogToplevel=tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*13896*17143
+
+[~MFT]
+0=28|0work.mgf|17143|0
+1=17|1work.mgf|135721|0
+3=34|3work.mgf|148218|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c9216e184c638528832389460bd1c3976f4b6
+
+[DUT]
+A/DUT=22|../design.sv|173|1*44328
+AICT=444761133722624
+BinL64/DUT=3*44630
+CLI=0*5230
+CUSP=UnitScopePackage_1
+R=../design.sv|173
+SLP=3*50391
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|db5272b61929768e4751426001023d2997e8811f60f535ccc2108d297fcd8394
+
+[Node]
+A/Node=22|../design.sv|3|1*374
+AICT=444761133718528
+BinL64/Node=3*174
+CLI=0*1134
+R=../design.sv|3
+SLP=3*3611
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|aed5333a8a95d84a34f87afe57661839e3b34c27b21e10e3807e91093c4062f4
+
+[Stimulus]
+A/Stimulus=22|../stimulus.svh|30|1*116176
+AICT=444761133725184
+BinL64/Stimulus=3*129348
+CLI=0*12830
+CUSP=UnitScopePackage_1
+R=../stimulus.svh|30
+SLP=3*136715
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|ff1b1c578cab898e414e678922b0047c44262b98d1ce650fcb326b0e6e607b730d007acc276863e157eb9e43e09c4dc6
+
+[UnitScopePackage_1]
+A/UnitScopePackage_1=22|../design.sv|0|1*135721
+BinL64/UnitScopePackage_1=3*148099
+CUSP=7
+R=../design.sv|0
+SLP=3*148218
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|fab98aed36991913255ea6c02c9bb53e4dc7b1d77717ad53c996fab9a47702ebecee07bef1e406789e5fa55edba3fd2d
+
+[\*assocarray#([]bitS[$],[]bitS) \]
+A/\*assocarray#([]bitS[$],[]bitS) \=22|||1*37996
+AICT=444761133721600
+BinL64/\*assocarray#([]bitS[$],[]bitS) \=3*39846
+CLI=0*4063
+SLP=3*42722
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|28d50cbe667753a254d0ce15b290b84354a8a2c126d57b4d6ab78e29950f4b07ea0a146c7565c81d584ff7efb0b3b1e9b0550469ccaa1bfa314b14549c348684
+
+[\*queue#(Node) \]
+A/\*queue#(Node) \=22|||1*27964
+AICT=444761133720320
+BinL64/\*queue#(Node) \=3*32625
+CLI=0*3128
+SLP=3*34482
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|41c0abc0e0ca0433873ba8c8b7b453b6c3f3d99e92098aeeabb275748e6d23808002e4ab14118b5658bd04e37cc7d65b
+
+[\*queue#(UnitScopePackage_1::opcode_u) \]
+A/\*queue#(UnitScopePackage_1::opcode_u) \=22|||1*110801
+AICT=444761133725440
+BinL64/\*queue#(UnitScopePackage_1::opcode_u) \=3*125809
+CLI=0*11442
+SLP=3*127709
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|656c7fed3134c7785d98f39a2ce4f47265874ebc2d97addc14e5fe211d3420d86b7d589dde43db4e999c9a01ea18f6be7f4cee0fde8a5d9850c97b661401bf34eab9b36b36b6df50d68dc049e90e4a05
+
+[\*queue#([]bit) \]
+A/\*queue#([]bit) \=22|||1*6564
+AICT=444761133719296
+BinL64/\*queue#([]bit) \=3*7379
+CLI=0*1511
+SLP=3*9574
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|ac315f1ee53bd5e82d18c46d474b59c486ecc9714881a909134cfbf0b9847b33afeb558a38c965788fd142449f766122
+
+[\*queue#([]bitS) \]
+A/\*queue#([]bitS) \=22|||1*32772
+AICT=444761133720832
+BinL64/\*queue#([]bitS) \=3*36066
+CLI=0*3583
+SLP=3*38264
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|ac315f1ee53bd5e82d18c46d474b59c4220d91537624afd915116161cb7b9d31e5dad60466e0110b2094dcb16f6788b8
+
+[linked_list]
+A/linked_list=22|../design.sv|15|1*11749
+AICT=444761133719552
+BinL64/linked_list=3*11155
+CLI=0*2672
+CUSP=UnitScopePackage_1
+R=../design.sv|15
+SLP=3*21587
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3079a68026483d67dd78404a4c01500a224f346ea26fe4891027442c98c6156e6d2553e89b57a6f58bcd32ba8058d089
+
+[monitor]
+A/monitor=22|../monitor.svh|81|1*69425
+AICT=444761133724160
+BinL64/monitor=3*77282
+CLI=0*7602
+CUSP=UnitScopePackage_1
+R=../monitor.svh|81
+SLP=3*82419
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|95ff40020058ee65c420aa5e779914f826527262ddaa47cb266f3a3c4d9b973a0dc37da46880c2684b2e88ee1e01c7eb
+
+[psudo_dut]
+A/psudo_dut=22|../monitor.svh|2|1*53454
+AICT=444761133723136
+BinL64/psudo_dut=3*56085
+CLI=0*6471
+CUSP=UnitScopePackage_1
+R=../monitor.svh|2
+SLP=3*67191
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|3dde534524aa6dd0fb3981ba49432cea39f08beca6824c6950d73c955418dcb742f80243a318edae6ada5056345f4ae2
+
+[rand_op]
+A/rand_op=22|../stimulus.svh|20|1*98276
+AICT=444761133724928
+BinL64/rand_op=3*110955
+CLI=0*10957
+CUSP=UnitScopePackage_1
+R=../stimulus.svh|20
+SLP=3*118456
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|92a2a9763055f2db240441cf69d32a1426527262ddaa47cb266f3a3c4d9b973a32560d28e1d523db7a74a2b8819cd10b
+
+[rand_size]
+A/rand_size=22|../stimulus.svh|9|1*85760
+AICT=444761133724672
+BinL64/rand_size=3*96938
+CLI=0*9701
+R=../stimulus.svh|9
+SLP=3*103812
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|e93f6db2c5fcdd615e6840b3695e8b2118796be1c5367029fe50f9a304d13866645f242822b62fc995e8d0cc2b78fb11
+
+[rand_val]
+A/rand_val=22|../stimulus.svh|1|1*78187
+AICT=444761133724416
+BinL64/rand_val=3*87759
+CLI=0*8568
+R=../stimulus.svh|1
+SLP=3*92090
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|68a206d80771483fc79dbe8aaca9e2a53535cc8d9627fb93a836e16c28de7455ebe199e4f956268a406f4f4658b0dd6b
+
+[tb]
+A/tb=22|../testbench.sv|11|1*132436
+BinL64/tb=3*144763
+CUSP=UnitScopePackage_1
+R=../testbench.sv|11
+SLP=3*146426
+Version=2023.04.112 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|8db8692708dc0985d408d2497dbc95fae48a5ae0b999f39509d82739583a6852
+
+[~U]
+$root=12|0*0|
+DUT=12|0*4585||0x30000
+Node=12|0*566||0x30000
+Stimulus=12|0*11943||0x30000
+UnitScopePackage_1=12|0*13565||0x40200000
+\*assocarray#([]bitS[$],[]bitS) \=12|||0x10030000
+\*queue#(Node) \=12|||0x10030000
+\*queue#(UnitScopePackage_1::opcode_u) \=12|||0x10030000
+\*queue#([]bit) \=12|||0x10030000
+\*queue#([]bitS) \=12|||0x10030000
+linked_list=12|0*1994||0x30000
+monitor=12|0*6982||0x30000
+psudo_dut=12|0*5615||0x1030000
+rand_op=12|0*10193||0x30000
+rand_size=12|0*8955||0x30000
+rand_val=12|0*8002||0x30000
+tb=12|0*13395||0x10
